@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.box{
+  background-color: white;
+  
+
+}
+.img {
+    float: left;
+    padding: 1% 1%;
+    margin-left: 2%;
+  }
+  
+  .png{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  /* styles.css */
+  .logobutton {
+    background-color: white;
+    color:#637381;
+    float: left;
+    margin-top: 5%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the button text */
+  .logobutton span {
+    margin-left: 10px;
+    /* Add space between the logo and text */
+  }
+  
+  .logobutton:hover {
+    background-color: #0056b3;
+    color: #fff;
+
+  }
+  
+  
+  .vertical{
+    position: relative;
+    height: 100vh; /* 100% of viewport height */
+    border-left: 1px solid #637381; /* Adjust color and width as needed */
+    float: left;
+    
+  }
+  .setting{
+    float: right;
+    background-color: white;
+  }
+  
+  .stngbtn1{
+    background-color: white;
+    color:#637381;
+    padding: 1px 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10px;
+    height: 20px;
+  }
+  .stngbtn2{
+    background-color: white;
+    color:#637381;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .stngbtn3{
+    background-color: white;
+    color:#637381;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .stngbtn4{
+    background-color: white;
+    color:#637381;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin-top: 3%;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid rgb(26, 25, 25);
+    border-radius: 25px;
+    width: 35%;
+    padding: 1% 3%;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: 1px solid #DDDDDD
+  }
+  
+  .box1 {
+    /* border: 1px solid black; */
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    width: 85%;
+    /* Adjust the width as needed */
+    height: 185px;
+    /* Adjust the height as needed */
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+
+
+  }
+  
+  .defaultbtn{
+    background-color: white;
+    border: white;
+    margin-right: 75%;
+    color: #2065D1;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+  
+  .box2 {
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    width: 85%;
+    /* Adjust the width as needed */
+    height: 185px;
+    /* Adjust the height as needed */
+    padding: 10px;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .box3 {
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    width: 85%;
+    /* Adjust the width as needed */
+    height: 185px;
+    /* Adjust the height as needed */
+    padding: 10px;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+  
+  .num {
+    margin-top: 10%;
+    margin-left: 5%;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 45px;
+  }
+  
+  .myvault {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 30px;
+    
+  
+  }
+  
+  .mybutton1 {
+    background-color: white;
+    border-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    margin-top: 1%;
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  /* Hover effect for the button */
+  .mybutton1:hover {
+    color: #2309cb;
+    /* Change the text color on hover */
+    text-decoration: underline;
+  }
+  
+  .mybutton2 {
+    background-color: white;
+    border-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  /* Hover effect for the button */
+  .mybutton2:hover {
+    color: #2309cb;
+    /* Change the text color on hover */
+    text-decoration: underline;
+  }
+  
+  .names {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: #2065D1;
+    margin-left: 12%;
+  }
+  
+  .vault1{
+    border: 1px solid #637381;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .siroxmen{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: #637381;
+    margin-left: 0.5%;
+    
+  }
+  .logo{
+    float: left;
+    display: flex;
+  }
+  
+  
+  .vault2{
+    border: 1px solid #637381;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Wintermute{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: #637381;
+    margin-left: 0.5%;
+  }
+  
+  .vault3{
+    border: 1px solid #637381;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ZinZin{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: #637381;
+    margin-left: 0.5%;
+  }
+  
+  .vault4{
+    border: 1px solid #637381;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Irakus{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: #637381;
+    margin-left: 0.5%;
+  }

@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.box{
+  background-color: white;
+  
+
+}
+.img {
+    float: left;
+    padding: 1% 1%;
+    margin-left: 2%;
+  }
+  
+  
+.png{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.logobutton {
+  background-color: white;
+  color:#637381;
+  float: left;
+  margin-top: 5%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  /* Smooth transition on hover */
+  display: flex;
+  /* Display button content in a flex container */
+  align-items: center;
+}
+
+/* Style the button text */
+.logobutton span {
+  margin-left: 10px;
+
+}
+.buttoncontent{
+  margin-left: 5%;
+}
+
+.das{
+  margin-left: -20%;
+}
+
+
+/* Hover effect for the button */
+.logobutton:hover {
+  background-color: #0056b3;
+  /* Change the background color on hover */
+  color: #fff;
+  /* Change the text color on hover */
+}
+
+  
+  
+  .vertical{
+    position: relative;
+    height: 100vh; /* 100% of viewport height */
+    border-left: 1px solid #637381; /* Adjust color and width as needed */
+    float: left;
+    
+  }
+  
+  .setting{
+    float: right;
+    background-color: white;
+  }
+  
+  .stngbtn1{
+    background-color: white;
+    color:#637381;
+    padding: 1px 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10px;
+    height: 20px;
+  }
+  .stngbtn2{
+    background-color: white;
+    color:#637381;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .stngbtn3{
+    background-color: white;
+    color:#637381;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+  .topnav input[type=text] {
+    border: 1px solid rgb(26, 25, 25);
+    border-radius: 25px;
+    width: 35%;
+    padding: 1% 3%;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: 1px solid #DDDDDD
+  }
+
+  
+.backbutton {
+  background-color: white;
+  border: 2px solid #2065D1;
+  color: #2065D1;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-left: 1%;
+  float: left;
+}
+
+.backbutton::before {
+  content: "\2190";
+  /* Unicode arrow left character */
+  margin-right: 10px;
+  /* Increased margin for spacing */
+}
+
+.overview {
+  color: #2065D1;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 13%;
+  margin-top: 1%;
+  font-weight: 500;
+  font-size: 180%;
+  border-bottom: 2px solid #2065D1;
+  width: 7.5%;
+}
+
+.container1 {
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  width: 40%;
+  /* Adjust the width as needed */
+  height: 900px;
+  /* Adjust the height as needed */
+  padding: 20px;
+  margin-left: 1%;
+  margin-top: 1%;
+  float: left;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.mybutton1 {
+  background-color: rgb(72, 113, 236);
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 20%;
+  font-size: large;
+  margin-left: 50%;
+
+}
+
+.leftsection {
+  display: flex;
+  align-items: center;
+}
+
+.logo1 img {
+  max-height: 50px;
+  /* Set the maximum height for your logo */
+  margin-right: 10px;
+  /* Add spacing between logo and name */
+}
+
+.p1 {
+  margin-left: 76%;
+  color: #3C3C3C;
+  font-weight: 500;
+  line-height: 16.5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+  
+
+.s1{
+  margin-left: 92.3%;
+  margin-top: -3%;  
+  color: #3C3C3C;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  line-height: 16.5px;
+}
+
+.p2 {
+  margin-left: 58%;
+  color: #3C3C3CCC;
+  font-weight: 500;
+  line-height: 16.5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+.s2{
+  margin-left: 82%;
+  margin-top: -3%;  
+  color: #3C3C3C;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  line-height: 16.5px;
+  font-size: 17px;
+
+}
+
+
+.p3 {
+  margin-left: 92.5%;
+  color: #3C3C3C;
+  font-weight: 500;
+  line-height: 16.5px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.s3{
+  margin-left: 85.5%;
+  margin-top: -3%;  
+  color: #3C3C3C;
+  font-weight: 500;
+  line-height: 16.5px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.s4{
+  margin-left: 89%;
+  margin-top: -3%;  
+  color: #3C3C3C;
+  font-weight: 500;
+  line-height: 16.5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.p4 {
+  margin-left: 80%;
+  color: #3C3C3C;
+  font-weight: 500;
+  line-height: 16.5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.p5 {
+  margin-left: 75%;
+  color: #3C3C3C;
+  font-weight: 500;
+  line-height: 16.5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.p6 {
+  margin-left: 72%;
+  color: #3C3C3C;
+  font-weight: 500;
+  line-height: 16.5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.p7 {
+  margin-left: 58.5%;
+  color: #3C3C3C;
+  font-weight: 500;
+  line-height: 16.5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.one {
+  margin-left: 2%;
+  margin-top: 0%;
+  font-family: 'Poppins', sans-serif;
+  color: #3C3C3C;
+  font-size: small;
+}
+
+.two {
+  margin-left: 2%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EAF4FC;
+  height: 35px;
+}
+
+.status {
+  margin-left: 1%;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #3C3C3C;
+}
+
+.next {
+  font-family: 'Poppins', sans-serif;
+  color: #3C3C3C;
+  margin-left: 3%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.three {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EAF4FC;
+  height: 35px;
+}
+
+.four {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EAF4FC;
+  height: 35px;
+}
+
+.five {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EAF4FC;
+  height: 35px;
+}
+
+.six {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EAF4FC;
+  height: 35px;
+}
+
+.seven {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EAF4FC;
+  height: 35px;
+}
+
+
+.eight {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EAF4FC;
+  height: 35px;
+}
+.default{
+  color: #188716;
+  background-color: #92FFCE;
+  width: 70px;
+  height: 22px;
+  font-size: medium;
+  margin-left: 87%;
+  display: flex;
+  margin-top: -3%;
+  border: none;
+}
+
+
+
+.container2 {
+  border: 2px solid #DDDDDD;
+  border-radius: 15px;
+  width: 25%;
+  /* Adjust the width as needed */
+  height: 90%;
+  /* Adjust the height as needed */
+  padding: 10px;
+  margin-left: 58%;
+  margin-top: 1%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Poppins', sans-serif;
+}
+.investor{
+  font-family: 'Poppins', sans-serif;
+  color: #3C3C3C;
+}
+
+
+.wordgrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 11px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container3 {
+  border: 2px solid #DDDDDD;
+  border-radius: 15px;
+  width: 25%;
+  /* Adjust the width as needed */
+  height: 100%;
+  /* Adjust the height as needed */
+  padding: 10px;
+  margin-left: 58%;
+  margin-top: 1%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Poppins', sans-serif;
+}
+  
+.investoraddress{
+  color: #3C3C3C;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  float: left;
+  display: flex;
+}
+.approval{
+  color: #3C3C3C;
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 80%;
+  display: flex;
+}
+.word{
+  display: flex;
+}
+.accepted{
+  display: flex;
+  margin-left: 80%;
+  margin-top: -10%;
+  color: #06850499;
+
+}
+
+.action{
+  color: red;
+  display: flex;
+  margin-left: 80%;
+  margin-top: -10%;
+}
+.paymentactor{
+  color: #3C3C3C;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 1%;
+  display: flex;
+}
+.approval1{
+  color: #3C3C3C;
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 80%;
+  margin-top: -4%;
+  display: flex;
+}

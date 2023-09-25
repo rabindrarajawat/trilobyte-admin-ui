@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import styles from './signin.module.css'
+import styles from './page.module.css'
 import { useRouter} from 'next/navigation';
 
 import Image from 'next/image';
@@ -28,38 +28,38 @@ const router =useRouter();
       </div>
 
 
-      <div className="box1">
-        <div className="create3">
+      <div className={styles.box1}>
+        <div className={styles.create3}>
           <h2>Sign in to trilobyte  </h2>
         </div>
 
-        <div className="boxsign">
-          <label className="custom-label">Email Address</label> <br />
-          <input type="text" id="Email" required /><br />
+        <div className={styles.boxsign}>
+          <label className={styles.customlabel}>Email Address</label> <br />
+          <input type="text" id="Email" required /><br/>
 
-          <label className="custom-label">Password</label> <br />
+          <label className={styles.customlabel} >Password</label> <br />
           <input type="password" id="Password" required /><br />
 
         </div>
 
-        <div className="two">
-        <div className="radio">
+        <div className={styles.two}>
+        <div className={styles.radio}>
             <input type="radio" id="RememberMe" name="rm" />
-             <label htmlFor="RememberMe" className="custom-label2">Remember me</label>
+             <label htmlFor="RememberMe" className={styles.customlabel2}>Remember me</label>
 
-             <a className="one" href="#" target="_blank">fortgot password ?</a>
+             <a className={styles.one} href="#" target="_blank">fortgot password ?</a>
         </div>
 
 
                
             </div>
 
-        <button className="my-button1"  onClick={()=>router.push("/dashboard")}>Login</button>
+        <button className={styles.mybutton1}  onClick={()=>router.push("/dashboard")}>Login</button>
        
 
    
-        <div className="signin">
-          <p>Don't have account? <button className="my-button2"  onClick={()=>router.push("/")}>
+        <div className={styles.signup}>
+          <p>Don't have account? <button className={styles.mybutton2}  onClick={()=>router.push("/")}>
           signup</button></p>
 
         </div>

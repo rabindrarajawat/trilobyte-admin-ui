@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
+
 .box{
   background-color: white;
-  
-
 }
+
 .img {
     float: left;
     padding: 1% 1%;
@@ -36,28 +36,31 @@
   align-items: center;
 }
 
+.logobutton {
+  background-color: white;
+  color:#637381;
+  float: left;
+  margin-top: 5%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
 /* Style the button text */
 .logobutton span {
   margin-left: 10px;
-
-}
-.buttoncontent{
-  margin-left: 5%;
+  /* Add space between the logo and text */
 }
 
-.das{
-  margin-left: -20%;
-}
-
-
-/* Hover effect for the button */
 .logobutton:hover {
   background-color: #0056b3;
-  /* Change the background color on hover */
   color: #fff;
-  /* Change the text color on hover */
-}
 
+}
   
   
   .vertical{

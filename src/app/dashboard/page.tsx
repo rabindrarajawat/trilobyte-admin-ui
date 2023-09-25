@@ -34,8 +34,8 @@ const dashboard = () => {
     <button className={styles.logobutton}>
     <Image src={myImage2} alt="My Image" width={30} height={30} /> Dasboard
     </button>
-    <button className={styles.logobutton}>
-    <Image src={myImage3} alt="My Image" width={30} height={30} /> create
+    <button className={styles.logobutton} onClick={()=>router.push("/create1")}>
+    <Image src={myImage3} alt="My Image" width={30} height={30}  /> create
     </button>
   </div>
 

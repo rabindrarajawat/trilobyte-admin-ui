@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-
 .box{
-  background-color: white;
-  
-
+  background-color: white  !important;
+  height: 75rem;
 }
+
 .img {
     float: left;
     padding: 1% 1%;

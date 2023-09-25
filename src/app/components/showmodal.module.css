@@ -1,0 +1,100 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    margin: 5rem;
+}
+
+.modalwraper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    /* background-color: rgba(189, 189, 189, 0.9); */
+}
+
+.modalcontainer {
+    position: fixed;
+    width: 17%;
+    height: 36%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #FFFFFF;
+    /* padding: 2rem 3rem; */
+    border-radius: .5rem;
+    border: 1px solid #078DEE;
+}
+
+.pay {
+    margin-top: 2%;
+    margin-left: 4%;
+
+    color: #3C3C3C;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.btn {
+    margin-left: 49%;
+    border-radius: 2px;
+    border: 1px;
+    position: relative;
+    border-radius: 2px;
+    border: 1px rgba(7, 141, 238, 0.20) solid
+}
+
+
+.topnav input[type=text] {
+    border-radius: 10px;
+    width: 87%;
+    padding: 1% 3%;
+    font-weight: 400;
+    margin-top: 4%;
+    border: 1px solid #DDDDDD;
+    background-color: #ECF6FE;
+    margin-left: 3%;
+
+    color: #A8B2C2;
+    font-size: 12px;
+    font-family: 'Poppins';
+    word-wrap: break-word;
+}
+
+.actor {
+    background-color: #ECF6FE;
+    height: 7%;
+    padding-left: 4%;
+    padding-top: 3%;
+
+    color: #2065D1;
+    font-size: 20 px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.one {
+    padding-left: 4%;
+    padding-top: 5%;
+    color: #2065D1;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.img {
+    padding-left: 4%;
+}
+
+.img1 {
+    padding-left: 28%;
+}

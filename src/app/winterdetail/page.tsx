@@ -32,18 +32,12 @@ const detail = () => {
 
             <div className={styles.png}>
                 <Image src={myImage1} alt="My Image" width={100} height={50} /><br />
-                <div className={styles.logobutton} >
-                    <div className={styles.buttoncontent}>
-                        <Image src={myImage2} alt="My Image" width={30} height={30} />
-                        <div className={styles.das}>Dashboard</div>
-                    </div>
-                </div>
-                <div className={styles.logobutton}>
-                    <div className={styles.buttoncontent}>
-                        <Image src={myImage3} alt="My Image" width={30} height={30} />
-                        <div className={styles.das}>Create</div>
-                    </div>
-                </div>
+                <button className={styles.logobutton}>
+                    <Image src={myImage2} alt="My Image" width={30} height={30} /> Dasboard
+                </button>
+                <button className={styles.logobutton} >
+                    <Image src={myImage3} alt="My Image" width={30} height={30} /> create
+                </button>
             </div>
 
 
@@ -83,7 +77,7 @@ const detail = () => {
                 <div className={styles.one}>
                     <h2>About Wintermute</h2>
                     <h4>Established in 2018 by a team of trading experts, Wintermute provides consistently deep
-                     liquidity to every major crypto exchange using its proprietary trading algorithms.</h4>
+                        liquidity to every major crypto exchange using its proprietary trading algorithms.</h4>
                     <h3>Vault Details</h3>
                 </div>
                 <div className={styles.two}>

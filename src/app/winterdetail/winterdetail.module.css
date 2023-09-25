@@ -30,32 +30,20 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  /* Smooth transition on hover */
   display: flex;
-  /* Display button content in a flex container */
   align-items: center;
 }
 
 /* Style the button text */
 .logobutton span {
   margin-left: 10px;
-
-}
-.buttoncontent{
-  margin-left: 5%;
+  /* Add space between the logo and text */
 }
 
-.das{
-  margin-left: -20%;
-}
-
-
-/* Hover effect for the button */
 .logobutton:hover {
   background-color: #0056b3;
-  /* Change the background color on hover */
   color: #fff;
-  /* Change the text color on hover */
+
 }
 
   

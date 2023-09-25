@@ -54,7 +54,7 @@ margin-top: 1%;
  }
  
  .box{
-   margin-top: -40%;
+   margin-top: -45%;
    margin-left: 75%;
  }
  .box1{
@@ -81,8 +81,8 @@ margin-top: 1%;
    line-height: 40px;
    font-size: 26px;
    font-weight: 300;
-   margin-top: -3%;
-   margin-left: 17%;
+   margin-top: -4%;
+   margin-left: 23%;
    
  }
  
@@ -163,14 +163,14 @@ margin-top: 1%;
  }
  
  .fn{
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Poppins';
    color: #3C3C3C;
    
  }
  
  .ln {
-   margin-left: 20%;
-   font-family: 'Poppins', sans-serif;
+   margin-left: 15%;
+   font-family: 'Poppins';
    color: #3C3C3C;
    
  }
@@ -200,7 +200,7 @@ margin-top: 1%;
  .radiolabel {
    color: #646464; /* Change the color to your desired color */
    margin-right: 30px;
-   font-size: 120%;
+   font-size: 104%;
  }
  
  

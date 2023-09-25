@@ -1,11 +1,7 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-
-
-
-
-body {
+.body {
   background: linear-gradient(to right,
           white 0%,
           white 70%,
@@ -15,7 +11,7 @@ body {
 }
 
 
-.image-container1 {
+.imagecontainer1 {
   margin-left: 2%;
   width: 185px;
   height: 44px;
@@ -24,8 +20,7 @@ body {
   margin-top: -7%;
 }
 
-.image-container2 {
- 
+.imagecontainer2 {
   margin-left: 15%;
 }
 
@@ -41,53 +36,28 @@ body {
   word-wrap: break-word;
 }
 
-.box{
-  margin-top: -45%;
-  margin-left: 75%;
-}
 .box1{
-  margin-top: -45%;
+  margin-top: -50%;
   margin-left: 78%;
 }
 
 .boxsign{
   margin-top: 15%;
-}
-
-.create1{
-  font-family: 'Poppins';
-  color: #3C3C3C;
-  line-height: 40px;
-  font-weight: 500;
-  margin-left: 10%;
-  font-size: 30px;
-  word-wrap: break-word;
-}
-
-.create2{
-  font-family: 'Poppins';
-  color: #3C3C3C;
-  line-height: 40px;
-  font-size: 30px;
-  font-weight: 500;
-  margin-top: -4%;
-  margin-left: 17%;
   
 }
 
 .create3{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   color: #3C3C3C;
   line-height: 45px;
-  font-size: 25px;
   font-weight: 500;
   margin-top: 35%;
+  font-size: 30px;
+  word-wrap: break-word;
 }
 
-
-
-input[type=text],
-input[type=password] {
+.input[type=text],
+.input[type=password] {
     width: 80%;
     margin: 10px 0;
     padding: 19px 25px;
@@ -101,23 +71,26 @@ input[type=password] {
     box-sizing: border-box;
 }
 
-input[type=text]:focus,
-input[type=password]:focus {
+.input[type=text]:focus,
+.input[type=password]:focus {
     outline: none; /* Remove the default focus outline */
     background-color: #ECF6FE; /* Background color when focused */
     border-bottom: 2px solid #2065D1; /* Border color when focused */
 }
 
 
-.custom-label {
+.customlabel{
   color: #646464;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   line-height: 24px;
   font-size: 16px;
-  width: 300;
+  width: 100%;
+  font-weight: 300;
+  word-wrap: break-word;
 }
 
-.my-button1 {
+
+.mybutton1 {
   background-color: rgb(72, 113, 236);
   color: white;
   padding: 14px 20px;
@@ -129,90 +102,61 @@ input[type=password]:focus {
   border-radius: 4px;
 }
 
-.signin{
+.signup{
   margin-top: 3%;
-  margin-left:18%;
-  font-size: 18px;
-  font-weight: 500;
+  margin-left:20%;
+  font-weight: 300;
   line-height: 18px;
   text-decoration: none;
   transition: border-bottom 0.3s;
   color: #646464;
+  font-size: 12px;
+  font-family: 'Poppins';
+  word-wrap: break-word;
 }
-.my-button2{
+
+.mybutton2{
   background-color: rgb(246, 245, 245);
   color: #2065D1;
   border: none;
   cursor: pointer;
-  font-size: 120%;
-}
+  /* font-size: 120%; */
 
-.name {
-  display: flex;
-}
-
-.fn{
-  font-family: 'Poppins', sans-serif;
-  color: #3C3C3C;
   
+  font-size: 12px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  word-wrap: break-word;
 }
 
-.ln {
-  margin-left: 20%;
-  font-family: 'Poppins', sans-serif;
-  color: #3C3C3C;
-  
-}
 
-.name input[type=text] {
-  width: 160px;
-  height: 40px;
-  border-radius: 3px;
-  margin: 8px 0;
-  padding: 12px 20px;
-  display: inline-block;
-  background-color: #ECF6FE;
-  border-top: 0px rgb(233, 228, 228);
-  border-right: 0px rgb(233, 228, 228);
-  border-left: 0px rgb(233, 228, 228);
-  border-bottom: 2px solid #2065D1;
-  box-sizing: border-box;
-}
-
-input[type='radio'] {
+.input[type='radio'] {
   width: 20px;
   height: 20px;
   color: #646464;
-  
 }
 
-.radio-label {
+.radiolabel {
   color: #646464; /* Change the color to your desired color */
   margin-right: 30px;
   font-size: 120%;
 }
 
 
-.one:link {color:#0000ff ;
+.one:link {
+  color:#0000ff ;
   margin-left: 15%;
-  font-size: 15px;
-  }
-  
+   
+  font-size: 12px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  word-wrap: break-word;
+}
   
   .radio{
       cursor: pointer;
       margin-top: 2%;
   }
-  .two{
-      cursor: pointer;
-      font-size: 15px;
-      margin-top: 2%;
-  
-  }
-
-.custom-label2{
-  color: #646464; 
-  font-size: 16px; 
-}
+ 
 
 
